@@ -3,6 +3,7 @@ spss_to_pilr_chna <- function(data, params, ...) {
   # Read in SPSS file
   b64_decoded_raw <- rawToChar(base64decode(params$files$spss_chna_file))
   df <- read.spss(textConnection(b64_decoded_raw), to.data.frame = TRUE)
+  stop(paste0(names(df)))
   
   # Rename and select vars to return
   df <- select(df, c(caseid_1 = CaseID_1, city_rec = city_recode,
