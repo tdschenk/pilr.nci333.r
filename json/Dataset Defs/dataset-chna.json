@@ -1,0 +1,141 @@
+{
+	"definition_type" : "dataset",
+	"name" : "Community Health Needs Assessment Data",
+	"code" : "mei:333:community_health_needs_assessment_dataset",
+	"schemas" : [{
+			"clazz" : "com.pilrhealth.data.ConcordiaSchema",
+			"name" : "Community Health Needs Assessment Data",
+			"schemaVersion" : 1,
+			"specification" : {
+				"type" : "object",
+				"fields" : [{
+						"name" : "caseid_1",
+						"type" : "number",
+						"optional" : true
+					}, {
+						"name" : "city_rec",
+						"type" : "number",
+						"optional" : true
+					}, {
+						"name" : "sc_6",
+						"type" : "number",
+						"optional" : true,
+						"doc" : "community they reside"
+					}, {
+						"name" : "sc_127",
+						"type" : "number",
+						"optional" : true,
+						"doc" : "how often do you do moderate activities"
+					}, {
+						"name" : "sc_128",
+						"type" : "number",
+						"optional" : true,
+						"doc" : "minutes per day"
+					}, {
+						"name" : "sc_129",
+						"type" : "number",
+						"optional" : true,
+						"doc" : "number of days per week do vigorous activities"
+					}, {
+						"name" : "sc_130",
+						"type" : "number",
+						"optional" : true,
+						"doc" : "minutes per day"
+					}, {
+						"name" : "sc_156",
+						"type" : "number",
+						"optional" : true,
+						"doc" : "quality of biking/walking trails in community;"
+					}, {
+						"name" : "sc_176",
+						"type" : "number",
+						"optional" : true,
+						"doc" : "gender"
+					}, {
+						"name" : "sc_177",
+						"type" : "number",
+						"optional" : true,
+						"doc" : "age"
+					}, {
+						"name" : "sc_178",
+						"type" : "number",
+						"optional" : true,
+						"doc" : "race: (1 white/Caucasian, 2 black or African American, 3 Asian or Pacific Islander, 4 American Indian/Alaskan native, 5 other: Hispanic, mixed race; 9 missing)"
+					}, {
+						"name" : "sc_184",
+						"type" : "string",
+						"optional" : true,
+						"doc" : "height (feet and inches)"
+					}, {
+						"name" : "sc_185",
+						"type" : "number",
+						"optional" : true,
+						"doc" : "height (in inches)"
+					}, {
+						"name" : "sc_186",
+						"type" : "number",
+						"optional" : true,
+						"doc" : "Weight"
+					}, {
+						"name" : "bmi",
+						"type" : "number",
+						"optional" : true
+					}, {
+						"name" : "bmi_stat",
+						"type" : "number",
+						"optional" : true
+					}, {
+						"name" : "weight",
+						"type" : "number",
+						"optional" : true
+					}, {
+						"name" : "age_reco",
+						"type" : "number",
+						"optional" : true
+					}, {
+						"name" : "sc15reco",
+						"type" : "number",
+						"optional" : true
+					}, {
+						"name" : "sc16reco",
+						"type" : "number",
+						"optional" : true
+					}, {
+						"name" : "mpamin",
+						"type" : "number",
+						"optional" : true
+					}, {
+						"name" : "vpamin",
+						"type" : "number",
+						"optional" : true
+					}, {
+						"name" : "mvpamin",
+						"type" : "number",
+						"optional" : true
+					}, {
+						"name" : "mpa",
+						"type" : "number",
+						"optional" : true
+					}, {
+						"name" : "vpa",
+						"type" : "number",
+						"optional" : true
+					}, {
+						"name" : "mvpa",
+						"type" : "number",
+						"optional" : true
+					}, {
+						"name" : "filter_$",
+						"type" : "number",
+						"optional" : true
+					}, {
+						"name" : "newage",
+						"type" : "number",
+						"optional" : true,
+						"doc" : "age index"
+					}
+				]
+			}
+		}
+	]
+}
