@@ -1,0 +1,7 @@
+{
+	"definition_type": "file",
+    "name": "SPSS File (CHNA Dataset)",
+    "code": "mei:333:spss_chna_file",
+	"version": 1,
+    "description": "An SPSS file to be parsed into the Community Health Needs Assessement dataset."
+}

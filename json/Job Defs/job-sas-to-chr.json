@@ -1,0 +1,39 @@
+{
+	"definition_type": "job",
+    "code": "mei:333:sas_to_chr",
+    "name": "Parse SAS File to CHR Dataset",
+    "version": 1,
+    "description": "Read in an uploaded SAS file and write it to the county health rankings dataset on your PiLR project.",
+    "runner": {
+        "clazz": "com.pilrhealth.tools.processing_with_r.RProcOpenCPUJobRunner",
+        "save_request": 1,
+        "save_response": 1,
+        "delete_if_successful": 0,
+        "package_url": "http://www.github.com/tdschenk/pilr.nci333.r",
+        "package_function": "sas_to_pilr_chr",
+        "resource_path": "/github/MeiResearchLtd/pilr.dpu.r/R/pilr_dpu",
+        "input_datasets": [],
+        "input_file_types": [
+			{
+				"code": "mei:333:sas_chr_file",
+				"version": 1,
+				"mapping": "sas_chr_file"
+			}
+		],
+        "input_settings": [],
+        "filter_params": [
+            "participant",
+            "date_range",
+            "period"
+        ],
+        "input_params": [],
+        "output_datasets": [      
+		    {
+                "code": "mei:333:county_health_rankings_dataset",
+                "version": 1,
+                "mapping" : "sas_chr"
+            }
+		],
+        "output_file_types": []
+    }
+}

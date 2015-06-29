@@ -21,3 +21,47 @@ spss_to_pilr_chna <- function(data, params, ...) {
   ret <- list(datasets = datasets, files = files)
   ret
 }
+
+
+#' @export
+sas_to_pilr_chr <- function(data, params, ...) {
+  # Read in SPSS file
+  b64_decoded_raw <- rawToChar(base64decode(params$files$sas_chr_file))
+  df <- read.sas7bdat(textConnection(b64_decoded_raw), to.data.frame = TRUE)
+  
+  # Rename and select vars to return
+  df <- select(df, c(statecode = statecode, countrycode = countycode, state = state,
+                     county = county, measnure_70_value = measure_70_value,
+                     measure_132_value = measure_132_value, measure_51_value = measure_51_value,
+                     measure_52_value = measure_52_value, measure_53_value = measure_53_value,
+                     measure_54_value = measure_54_value, measure_55_value = measure_55_value,
+                     measure_81_value = measure_81_value))
+  
+  # Construct return list
+  datasets <- list(sas_chr = df)
+  files <- list()
+  ret <- list(datasets = datasets, files = files)
+  ret
+}
+
+
+#' @export
+csv_to_pilr_chr <- function(data, params, ...) {
+  # Read in SPSS file
+  b64_decoded_raw <- rawToChar(base64decode(params$files$csv_chr_file))
+  df <- read.csv(textConnection(b64_decoded_raw), to.data.frame = TRUE)
+  
+  # Rename and select vars to return
+  df <- select(df, c(statecode = statecode, countrycode = countycode, state = state,
+                     county = county, measnure_70_value = measure_70_value,
+                     measure_132_value = measure_132_value, measure_51_value = measure_51_value,
+                     measure_52_value = measure_52_value, measure_53_value = measure_53_value,
+                     measure_54_value = measure_54_value, measure_55_value = measure_55_value,
+                     measure_81_value = measure_81_value))
+  
+  # Construct return list
+  datasets <- list(csv_chr = df)
+  files <- list()
+  ret <- list(datasets = datasets, files = files)
+  ret
+}
