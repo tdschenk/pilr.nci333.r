@@ -50,7 +50,7 @@ csv_to_pilr_chna <- function(data, params, ...) {
 sas_to_pilr_chr <- function(data, params, ...) {
   # Read in SPSS file
   b64_decoded_raw <- rawToChar(base64decode(params$files$sas_chr_file))
-  df <- read.sas7bdat(textConnection(b64_decoded_raw), to.data.frame = TRUE)
+  df <- read.sas7bdat(textConnection(b64_decoded_raw))
   
   # Rename and select vars to return
   df <- select(df, c(statecode = statecode, countrycode = countycode, state = state,
