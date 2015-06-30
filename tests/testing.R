@@ -18,3 +18,5 @@ data <- read.spss("C:/Users/Tyler/Documents/NCI333/Data/Story_County_health_need
 write.csv(data, "test.csv")
 
 data2 <- read.csv("C:/Users/Tyler/Documents/NCI333/Data/Story_County_health_needs_assessment2010_weighted.csv")
+
+## testing
