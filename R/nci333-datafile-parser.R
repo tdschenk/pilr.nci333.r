@@ -50,7 +50,7 @@ csv_to_pilr_chna <- function(data, params, ...) {
   df$pt <- params$params$participant
   
   # Construct return list
-  datasets <- list(csv_chna = df)
+  datasets <- list(community_health_needs_assessment_dataset = df)
   files <- list()
   ret <- list(datasets = datasets, files = files)
   ret
