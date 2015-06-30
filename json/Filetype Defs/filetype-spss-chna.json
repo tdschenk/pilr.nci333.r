@@ -1,5 +1,5 @@
 {
-	"definition_type": "file",
+	"definition_type": "file_handler",
     "name": "SPSS File (CHNA Dataset)",
     "code": "mei:333:spss_chna_file",
 	"version": 1,
