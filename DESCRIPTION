@@ -7,4 +7,4 @@ Author: Tyler Schenk (tschenk@meinergy.com)
 Description: Functions to be used for parsing NCI-333 datafiles into PiLR datasets.
 License: MEI Research, Ltd.
 LazyData: TRUE
-Depends: pilr.api.r, plyr, dplyr, foreign, sas7bdat, base64enc
+Depends: pilr.api.r, plyr, dplyr, foreign, sas7bdat, base64enc, uuid

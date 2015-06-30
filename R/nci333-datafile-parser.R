@@ -39,6 +39,16 @@ csv_to_pilr_chna <- function(data, params, ...) {
                      mvpamin = MVPAmin, mpa = MPA, vpa = VPA, mvpa = MVPA,
                      `filter_$` = filter_.))
   
+  # Add metadata
+  id <- character(nrow(df))
+  for (i in 1:nrow(df)) {
+    id[i] <- UUIDgenerate()
+    i <- i + 1
+  }
+  df$timestamp <- toString(Sys.Date())
+  df$id <- id
+  df$pt <- params$params$participant
+  
   # Construct return list
   datasets <- list(csv_chna = df)
   files <- list()
@@ -81,6 +91,16 @@ csv_to_pilr_chr <- function(data, params, ...) {
                      measure_52_value = measure_52_value, measure_53_value = measure_53_value,
                      measure_54_value = measure_54_value, measure_55_value = measure_55_value,
                      measure_81_value = measure_81_value))
+  
+  # Add metadata
+  id <- character(nrow(df))
+  for (i in 1:nrow(df)) {
+    id[i] <- UUIDgenerate()
+    i <- i + 1
+  }
+  df$timestamp <- toString(Sys.Date())
+  df$id <- id
+  df$pt <- params$params$participant
   
   # Construct return list
   datasets <- list(csv_chr = df)
