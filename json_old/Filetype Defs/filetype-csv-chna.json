@@ -1,0 +1,6 @@
+{
+    "name": "CSV File (CHNA Dataset)",
+    "code": "mei:333:csv_chna_file",
+	"version": 1,
+    "description": "A CSV file to be parsed into the Community Health Needs Assessment dataset."
+}

@@ -1,0 +1,6 @@
+{
+    "name": "CSV File (CHR Dataset)",
+    "code": "mei:333:csv_chr_file",
+	"version": 1,
+    "description": "A CSV file to be parsed into the County Health Rankings dataset."
+}

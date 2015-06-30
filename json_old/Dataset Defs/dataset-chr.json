@@ -1,0 +1,64 @@
+{
+	"definition_type" : "dataset",
+	"name" : "County Health Rankings Data",
+	"code" : "mei:333:county_health_rankings_dataset",
+	"schemas" : [{
+			"clazz" : "com.pilrhealth.data.ConcordiaSchema",
+			"name" : "County Health Rankings Data",
+			"schemaVersion" : 1,
+			"specification" : {
+				"type" : "object",
+				"fields" : [{
+						"name" : "statecode",
+						"doc" : "FIPS State Code",
+						"type" : "string"
+					}, {
+						"name" : "countycode",
+						"doc" : "FIPS County Code",
+						"type" : "string"
+					}, {
+						"name" : "state",
+						"doc" : "State",
+						"type" : "string"
+					}, {
+						"name" : "county",
+						"doc" : "County",
+						"type" : "string"
+					}, {
+						"name" : "measure_70_value",
+						"doc" : "Physical inactivity Value",
+						"type" : "number"
+					}, {
+						"name" : "measure_132_value",
+						"doc" : "Access to exercise opportunities Value",
+						"type" : "number"
+					}, {
+						"name" : "measure_51_value",
+						"doc" : "2011 population estimate Value",
+						"type" : "number"
+					}, {
+						"name" : "measure_52_value",
+						"doc" : "Percent of population below 18 years of age",
+						"type" : "number"
+					}, {
+						"name" : "measure_53_value",
+						"doc" : "Percent of population aged 65 years and older",
+						"type" : "number"
+					}, {
+						"name" : "measure_54_value",
+						"doc" : "Percent of population that is non-Hispanic African American",
+						"type" : "number"
+					}, {
+						"name" : "measure_55_value",
+						"doc" : "Percent of population that is American Indian or Alaskan Native",
+						"type" : "number"
+					}, {
+						"name" : "measure_81_value",
+						"doc" : "Percent of population that is Asian",
+						"type" : "number"
+					}
+				]
+			}
+		}
+	]
+}
