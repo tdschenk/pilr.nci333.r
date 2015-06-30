@@ -31,7 +31,7 @@
 		    {
                 "code": "mei:333:community_health_needs_assessment_dataset",
                 "version": 1,
-                "mapping" : "csv_chna"
+                "mapping" : "community_health_needs_assessment_dataset"
             }
 		],
         "output_file_types": []
