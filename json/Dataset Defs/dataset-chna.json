@@ -14,11 +14,11 @@
 						"optional" : true
 					}, {
 						"name" : "city_rec",
-						"type" : "number",
+						"type" : "string",
 						"optional" : true
 					}, {
 						"name" : "sc_6",
-						"type" : "number",
+						"type" : "string",
 						"optional" : true,
 						"doc" : "community they reside"
 					}, {
@@ -43,12 +43,12 @@
 						"doc" : "minutes per day"
 					}, {
 						"name" : "sc_156",
-						"type" : "number",
+						"type" : "string",
 						"optional" : true,
 						"doc" : "quality of biking/walking trails in community;"
 					}, {
 						"name" : "sc_176",
-						"type" : "number",
+						"type" : "string",
 						"optional" : true,
 						"doc" : "gender"
 					}, {
@@ -58,7 +58,7 @@
 						"doc" : "age"
 					}, {
 						"name" : "sc_178",
-						"type" : "number",
+						"type" : "string",
 						"optional" : true,
 						"doc" : "race: (1 white/Caucasian, 2 black or African American, 3 Asian or Pacific Islander, 4 American Indian/Alaskan native, 5 other: Hispanic, mixed race; 9 missing)"
 					}, {
@@ -82,7 +82,7 @@
 						"optional" : true
 					}, {
 						"name" : "bmi_stat",
-						"type" : "number",
+						"type" : "string",
 						"optional" : true
 					}, {
 						"name" : "weight",
@@ -90,15 +90,15 @@
 						"optional" : true
 					}, {
 						"name" : "age_reco",
-						"type" : "number",
+						"type" : "string",
 						"optional" : true
 					}, {
 						"name" : "sc15reco",
-						"type" : "number",
+						"type" : "string",
 						"optional" : true
 					}, {
 						"name" : "sc16reco",
-						"type" : "number",
+						"type" : "string",
 						"optional" : true
 					}, {
 						"name" : "mpamin",
@@ -126,7 +126,7 @@
 						"optional" : true
 					}, {
 						"name" : "filter_$",
-						"type" : "number",
+						"type" : "string",
 						"optional" : true
 					}, {
 						"name" : "newage",
