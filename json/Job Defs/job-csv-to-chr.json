@@ -31,7 +31,7 @@
 		    {
                 "code": "mei:333:county_health_rankings_dataset",
                 "version": 1,
-                "mapping" : "csv_chr"
+                "mapping" : "county_health_rankings_dataset"
             }
 		],
         "output_file_types": []
