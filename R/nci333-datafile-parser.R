@@ -107,5 +107,4 @@ csv_to_pilr_chr <- function(data, params, ...) {
   files <- list()
   ret <- list(datasets = datasets, files = files)
   ret
-  stop(paste0("end"))
 }
