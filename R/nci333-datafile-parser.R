@@ -80,11 +80,12 @@ sas_to_pilr_chr <- function(data, params, ...) {
 
 #' @export
 csv_to_pilr_chr <- function(data, params, ...) {
-  # Read in SPSS file
+  # Read in CSV file
   b64_decoded_raw <- rawToChar(base64decode(params$files$csv_chr_file))
   df <- read.csv(textConnection(b64_decoded_raw))
   
   # Rename and select vars to return
+  df <- df[2:nrow(df),]
   df <- select(df, c(statecode = statecode, countycode = countycode, state = state,
                      county = county, measnure_70_value = measure_70_value,
                      measure_132_value = measure_132_value, measure_51_value = measure_51_value,
