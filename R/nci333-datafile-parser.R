@@ -87,7 +87,7 @@ csv_to_pilr_chr <- function(data, params, ...) {
   # Rename and select vars to return
   df <- df[2:nrow(df),]
   df <- select(df, c(statecode = statecode, countycode = countycode, state = state,
-                     county = county, measnure_70_value = measure_70_value,
+                     county = county, measure_70_value = measure_70_value,
                      measure_132_value = measure_132_value, measure_51_value = measure_51_value,
                      measure_52_value = measure_52_value, measure_53_value = measure_53_value,
                      measure_54_value = measure_54_value, measure_55_value = measure_55_value,
