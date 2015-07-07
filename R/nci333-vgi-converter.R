@@ -2,9 +2,22 @@
 vgi_convert <- function(data, params, ...) {
   data <- data$vgi
   
-  # Initialize large data frame to return
-  data <- data[data$survey_code != "test_survey",]
+  # Remove old and test surveys
+  question_codes <- c("00100", "00101", "00110", "00120", "00130", "00140",
+                      "00400", "00401", "00410", "00420", "00430", "00432",
+                      "00433", "00434", "00435", "00440", "00450", "00500",
+                      "00501", "00510", "00520", "00530", "00541", "00542",
+                      "00543", "00544", "00550", "00560", "00300", "0301",
+                      "00310", "00320", "00330", "00340", "00350", "00351",
+                      "00352", "00353", "00354", "00355", "00360", "00370",
+                      "00380", "00390", "00399", "00200", "00201", "00210",
+                      "00220", "00230", "00240", "00250", "00251", "00252",
+                      "00253", "00254", "00255", "00260", "00270", "")
+  keepRows <- apply(data, 1, function(x) any(x %in% question_codes))
+  data <- data[keepRows,]
   evaluations <- unique(data$session)
+  
+  # Initialize large data frame to return
   ret <- data.frame(survey_code = character(length(evaluations)),
                     location_response_value = character(length(evaluations)), location_response = character(length(evaluations)),
                     type_response_value = character(length(evaluations)), type_response = character(length(evaluations)),
