@@ -26,7 +26,8 @@ vgi_convert <- function(data, params, ...) {
                     parking.response_value = character(length(evaluations)), parking.response = character(length(evaluations)),
                     crossing.response_value = character(length(evaluations)), crossing.response = character(length(evaluations)),
                     attractive.response_value = character(length(evaluations)), attractive.response = character(length(evaluations)),
-                    safe.response_value = character(length(evaluations)), safe.response = character(length(evaluations)), stringsAsFactors=FALSE)
+                    safe.response_value = character(length(evaluations)), safe.response = character(length(evaluations)), 
+                    id = character(length(evaluations)), stringsAsFactors=FALSE)
   
   # Iterate through each evaluation
   for (i in 1:length(evaluations)) {
@@ -374,6 +375,9 @@ vgi_convert <- function(data, params, ...) {
         }
       }
     }
+    ret$id[i] <- UUIDgenerate()
   }
+  ret$pt <- data$pt[1]
+  ret$timestamp <- Sys.time()
   list(datasets = list(vgi_formatted = ret), files = list())
 }
