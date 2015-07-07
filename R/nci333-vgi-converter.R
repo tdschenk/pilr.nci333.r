@@ -378,6 +378,6 @@ vgi_convert <- function(data, params, ...) {
     ret$id[i] <- UUIDgenerate()
   }
   ret$pt <- data$pt[1]
-  ret$timestamp <- Sys.time()
+  ret$timestamp <- toString(Sys.Date())
   list(datasets = list(vgi_formatted = ret), files = list())
 }
