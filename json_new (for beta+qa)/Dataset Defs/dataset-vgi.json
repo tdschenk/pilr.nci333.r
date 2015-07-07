@@ -1,4 +1,5 @@
 {
+	"definition_type" : "dataset",
 	"name" : "VGI Formatted Survey Data",
 	"code" : "mei:333:vgi_formatted_survey_data",
 	"schemas" : [{

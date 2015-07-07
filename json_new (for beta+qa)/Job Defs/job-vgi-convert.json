@@ -1,4 +1,5 @@
 {
+	"definition_type": "job",
 	"code" : "mei:333:vgi_format",
 	"name" : "Cleanup VGI Dataset",
 	"version" : 1,
