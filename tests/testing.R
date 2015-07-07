@@ -26,3 +26,10 @@ options(pilr_server_default = "http://nci333.pilrhealth.com")
 options(pilr_project_default = "mycommunity-333")
 data <- list(vgi = read_pilr(data_set = "pilrhealth:mobile:survey_data", schema = "1", 
                              query_params = list(participant = "135")))
+
+options(pilr_default_access_code = "5b3a37a2-069c-4bf7-b33c-3ccdee97b056")
+options(pilr_server_default = "http://beta.pilrhealth.com")
+options(pilr_project_default = "geneactiv_testing")
+data <- list(vgi = read_pilr(data_set = "pilrhealth:mobile:survey_data", schema = "1", 
+                             query_params = list(participant = "135")))
+params <- ""

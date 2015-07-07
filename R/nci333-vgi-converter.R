@@ -11,7 +11,7 @@ vgi_convert <- function(data, params, ...) {
                     condition.response_value = character(length(evaluations)), condition.response = character(length(evaluations)),
                     along_road.response_value = character(length(evaluations)), along_road.response = character(length(evaluations)),
                     from_road.response_value = character(length(evaluations)), from_road.response = character(length(evaluations)),
-                    buffers.response_value = character(length(evaluations)), buffers.response = character(length(evaluations)),
+                    buffer.response_value = character(length(evaluations)), buffer.response = character(length(evaluations)),
                     fence.response_value = character(length(evaluations)), fence.response = character(length(evaluations)),
                     tree.response_value = character(length(evaluations)), tree.response = character(length(evaluations)),
                     hedge.response_value = character(length(evaluations)), hedge.response = character(length(evaluations)),
