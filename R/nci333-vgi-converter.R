@@ -13,8 +13,7 @@ vgi_convert <- function(data, params, ...) {
                       "00380", "00390", "00399", "00200", "00201", "00210",
                       "00220", "00230", "00240", "00250", "00251", "00252",
                       "00253", "00254", "00255", "00260", "00270", "")
-  #keepRows <- apply(data, 1, function(x) any(x %in% question_codes))
-  #data <- data[keepRows,]
+  data <- subset(data, question_code %in% question_codes)
   evaluations <- unique(data$session)
   
   # Initialize large data frame to return
