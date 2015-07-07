@@ -1,0 +1,184 @@
+{
+	"definition_type" : "dataset",
+	"name" : "VGI Formatted Survey Data",
+	"code" : "mei:333:vgi_formatted_survey_data",
+	"schemas" : [{
+			"clazz" : "com.pilrhealth.data.ConcordiaSchema",
+			"name" : "VGI Formatted Survey Data",
+			"schemaVersion" : 1,
+			"specification" : {
+				"type" : "object",
+				"fields" : [{
+						"name" : "location.response_value",
+						"type" : "string",
+						"optional" : true
+					}, {
+						"name" : "location.response",
+						"type" : "string",
+						"optional" : true
+					}, {
+						"name" : "type.response_value",
+						"type" : "string",
+						"optional" : true
+					}, {
+						"name" : "type.response",
+						"type" : "string",
+						"optional" : true
+					}, {
+						"name" : "condition.response_value",
+						"type" : "string",
+						"optional" : true
+					}, {
+						"name" : "condition.response",
+						"type" : "string",
+						"optional" : true
+					}, {
+						"name" : "along_road.response_value",
+						"type" : "string",
+						"optional" : true
+					}, {
+						"name" : "along_road.response",
+						"type" : "string",
+						"optional" : true
+					}, {
+						"name" : "from_road.response_value",
+						"type" : "string",
+						"optional" : true
+					}, {
+						"name" : "from_road.response",
+						"type" : "string",
+						"optional" : true
+					}, {
+						"name" : "buffers.response_value",
+						"type" : "string",
+						"optional" : true
+					}, {
+						"name" : "buffers.response",
+						"type" : "string",
+						"optional" : true
+					}, {
+						"name" : "fence.response_value",
+						"type" : "string",
+						"optional" : true
+					}, {
+						"name" : "fence.response",
+						"type" : "string",
+						"optional" : true
+					}, {
+						"name" : "tree.response_value",
+						"type" : "string",
+						"optional" : true
+					}, {
+						"name" : "tree.response",
+						"type" : "string",
+						"optional" : true
+					}, {
+						"name" : "hedge.response_value",
+						"type" : "string",
+						"optional" : true
+					}, {
+						"name" : "hedge.response",
+						"type" : "string",
+						"optional" : true
+					}, {
+						"name" : "landscaping.response_value",
+						"type" : "string",
+						"optional" : true
+					}, {
+						"name" : "landscaping.response",
+						"type" : "string",
+						"optional" : true
+					}, {
+						"name" : "grass.response_value",
+						"type" : "string",
+						"optional" : true
+					}, {
+						"name" : "grass.response",
+						"type" : "string",
+						"optional" : true
+					}, {
+						"name" : "width.response_value",
+						"type" : "string",
+						"optional" : true
+					}, {
+						"name" : "width.response",
+						"type" : "string",
+						"optional" : true
+					}, {
+						"name" : "building_near.response_value",
+						"type" : "string",
+						"optional" : true
+					}, {
+						"name" : "building_near.response",
+						"type" : "string",
+						"optional" : true
+					}, {
+						"name" : "from_buildings.response_value",
+						"type" : "string",
+						"optional" : true
+					}, {
+						"name" : "from_buildings.response",
+						"type" : "string",
+						"optional" : true
+					}, {
+						"name" : "markings.response_value",
+						"type" : "string",
+						"optional" : true
+					}, {
+						"name" : "markings.response",
+						"type" : "string",
+						"optional" : true
+					}, {
+						"name" : "signs.response_value",
+						"type" : "string",
+						"optional" : true
+					}, {
+						"name" : "signs.response",
+						"type" : "string",
+						"optional" : true
+					}, {
+						"name" : "lane.response_value",
+						"type" : "string",
+						"optional" : true
+					}, {
+						"name" : "lane.response",
+						"type" : "string",
+						"optional" : true
+					}, {
+						"name" : "parking.response_value",
+						"type" : "string",
+						"optional" : true
+					}, {
+						"name" : "parking.response",
+						"type" : "string",
+						"optional" : true
+					}, {
+						"name" : "crossing.response_value",
+						"type" : "string",
+						"optional" : true
+					}, {
+						"name" : "crossing.response",
+						"type" : "string",
+						"optional" : true
+					}, {
+						"name" : "attractive.response_value",
+						"type" : "string",
+						"optional" : true
+					}, {
+						"name" : "attractive.response",
+						"type" : "string",
+						"optional" : true
+					}, {
+						"name" : "safe.response_value",
+						"type" : "string",
+						"optional" : true
+					}, {
+						"name" : "safe.response",
+						"type" : "string",
+						"optional" : true
+					}
+				]
+			}
+		}
+	]
+}
