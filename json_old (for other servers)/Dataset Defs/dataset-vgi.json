@@ -8,171 +8,171 @@
 			"specification" : {
 				"type" : "object",
 				"fields" : [{
-						"name" : "location.response_value",
+						"name" : "location_response_value",
 						"type" : "string",
 						"optional" : true
 					}, {
-						"name" : "location.response",
+						"name" : "location_response",
 						"type" : "string",
 						"optional" : true
 					}, {
-						"name" : "type.response_value",
+						"name" : "type_response_value",
 						"type" : "string",
 						"optional" : true
 					}, {
-						"name" : "type.response",
+						"name" : "type_response",
 						"type" : "string",
 						"optional" : true
 					}, {
-						"name" : "condition.response_value",
+						"name" : "condition_response_value",
 						"type" : "string",
 						"optional" : true
 					}, {
-						"name" : "condition.response",
+						"name" : "condition_response",
 						"type" : "string",
 						"optional" : true
 					}, {
-						"name" : "along_road.response_value",
+						"name" : "along_road_response_value",
 						"type" : "string",
 						"optional" : true
 					}, {
-						"name" : "along_road.response",
+						"name" : "along_road_response",
 						"type" : "string",
 						"optional" : true
 					}, {
-						"name" : "from_road.response_value",
+						"name" : "from_road_response_value",
 						"type" : "string",
 						"optional" : true
 					}, {
-						"name" : "from_road.response",
+						"name" : "from_road_response",
 						"type" : "string",
 						"optional" : true
 					}, {
-						"name" : "buffers.response_value",
+						"name" : "buffers_response_value",
 						"type" : "string",
 						"optional" : true
 					}, {
-						"name" : "buffers.response",
+						"name" : "buffers_response",
 						"type" : "string",
 						"optional" : true
 					}, {
-						"name" : "fence.response_value",
+						"name" : "fence_response_value",
 						"type" : "string",
 						"optional" : true
 					}, {
-						"name" : "fence.response",
+						"name" : "fence_response",
 						"type" : "string",
 						"optional" : true
 					}, {
-						"name" : "tree.response_value",
+						"name" : "tree_response_value",
 						"type" : "string",
 						"optional" : true
 					}, {
-						"name" : "tree.response",
+						"name" : "tree_response",
 						"type" : "string",
 						"optional" : true
 					}, {
-						"name" : "hedge.response_value",
+						"name" : "hedge_response_value",
 						"type" : "string",
 						"optional" : true
 					}, {
-						"name" : "hedge.response",
+						"name" : "hedge_response",
 						"type" : "string",
 						"optional" : true
 					}, {
-						"name" : "landscaping.response_value",
+						"name" : "landscaping_response_value",
 						"type" : "string",
 						"optional" : true
 					}, {
-						"name" : "landscaping.response",
+						"name" : "landscaping_response",
 						"type" : "string",
 						"optional" : true
 					}, {
-						"name" : "grass.response_value",
+						"name" : "grass_response_value",
 						"type" : "string",
 						"optional" : true
 					}, {
-						"name" : "grass.response",
+						"name" : "grass_response",
 						"type" : "string",
 						"optional" : true
 					}, {
-						"name" : "width.response_value",
+						"name" : "width_response_value",
 						"type" : "string",
 						"optional" : true
 					}, {
-						"name" : "width.response",
+						"name" : "width_response",
 						"type" : "string",
 						"optional" : true
 					}, {
-						"name" : "building_near.response_value",
+						"name" : "building_near_response_value",
 						"type" : "string",
 						"optional" : true
 					}, {
-						"name" : "building_near.response",
+						"name" : "building_near_response",
 						"type" : "string",
 						"optional" : true
 					}, {
-						"name" : "from_buildings.response_value",
+						"name" : "from_buildings_response_value",
 						"type" : "string",
 						"optional" : true
 					}, {
-						"name" : "from_buildings.response",
+						"name" : "from_buildings_response",
 						"type" : "string",
 						"optional" : true
 					}, {
-						"name" : "markings.response_value",
+						"name" : "markings_response_value",
 						"type" : "string",
 						"optional" : true
 					}, {
-						"name" : "markings.response",
+						"name" : "markings_response",
 						"type" : "string",
 						"optional" : true
 					}, {
-						"name" : "signs.response_value",
+						"name" : "signs_response_value",
 						"type" : "string",
 						"optional" : true
 					}, {
-						"name" : "signs.response",
+						"name" : "signs_response",
 						"type" : "string",
 						"optional" : true
 					}, {
-						"name" : "lane.response_value",
+						"name" : "lane_response_value",
 						"type" : "string",
 						"optional" : true
 					}, {
-						"name" : "lane.response",
+						"name" : "lane_response",
 						"type" : "string",
 						"optional" : true
 					}, {
-						"name" : "parking.response_value",
+						"name" : "parking_response_value",
 						"type" : "string",
 						"optional" : true
 					}, {
-						"name" : "parking.response",
+						"name" : "parking_response",
 						"type" : "string",
 						"optional" : true
 					}, {
-						"name" : "crossing.response_value",
+						"name" : "crossing_response_value",
 						"type" : "string",
 						"optional" : true
 					}, {
-						"name" : "crossing.response",
+						"name" : "crossing_response",
 						"type" : "string",
 						"optional" : true
 					}, {
-						"name" : "attractive.response_value",
+						"name" : "attractive_response_value",
 						"type" : "string",
 						"optional" : true
 					}, {
-						"name" : "attractive.response",
+						"name" : "attractive_response",
 						"type" : "string",
 						"optional" : true
 					}, {
-						"name" : "safe.response_value",
+						"name" : "safe_response_value",
 						"type" : "string",
 						"optional" : true
 					}, {
-						"name" : "safe.response",
+						"name" : "safe_response",
 						"type" : "string",
 						"optional" : true
 					}
