@@ -1,5 +1,4 @@
 {
-	"definition_type" : "dataset",
 	"name" : "SCCC Dataset",
 	"code" : "mei:333:sccc_dataset",
 	"schemas" : [{

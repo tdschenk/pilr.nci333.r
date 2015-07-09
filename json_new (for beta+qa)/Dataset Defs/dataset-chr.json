@@ -11,11 +11,11 @@
 				"fields" : [{
 						"name" : "statecode",
 						"doc" : "FIPS State Code",
-						"type" : "string"
+						"type" : "number"
 					}, {
 						"name" : "countycode",
 						"doc" : "FIPS County Code",
-						"type" : "string"
+						"type" : "number"
 					}, {
 						"name" : "state",
 						"doc" : "State",
@@ -31,11 +31,12 @@
 					}, {
 						"name" : "measure_132_value",
 						"doc" : "Access to exercise opportunities Value",
-						"type" : "number"
+						"type" : "number",
+						"optional" : true
 					}, {
 						"name" : "measure_51_value",
 						"doc" : "2011 population estimate Value",
-						"type" : "number"
+						"type" : "string"
 					}, {
 						"name" : "measure_52_value",
 						"doc" : "Percent of population below 18 years of age",
