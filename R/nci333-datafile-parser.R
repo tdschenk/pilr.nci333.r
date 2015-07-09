@@ -109,3 +109,32 @@ csv_to_pilr_chr <- function(data, params, ...) {
   ret <- list(datasets = datasets, files = files)
   ret
 }
+
+
+#' @export
+csv_to_pilr_sccc <- function(data, params, ...) {
+  # Read in CSV file
+  b64_decoded_raw <- rawToChar(base64decode(params$files$csv_sccc_file))
+  df <- read.csv(textConnection(b64_decoded_raw))
+  
+  # Rename and select vars to return
+  df <- df[2:nrow(df),]
+  df <- select(df, c(Q10_bike = Q10_bike, Q10_rec = Q10_rec, 
+                     Q10_parks = Q10_parks, zip = zip, zip_recode = zip_recode))
+  
+  # Add metadata
+  id <- character(nrow(df))
+  for (i in 1:nrow(df)) {
+    id[i] <- UUIDgenerate()
+    i <- i + 1
+  }
+  df$timestamp <- toString(Sys.Date())
+  df$id <- id
+  df$pt <- params$params$participant
+  
+  # Construct return list
+  datasets <- list(sccc_dataset = df)
+  files <- list()
+  ret <- list(datasets = datasets, files = files)
+  ret
+}

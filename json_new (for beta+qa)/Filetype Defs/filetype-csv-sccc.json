@@ -1,0 +1,7 @@
+{
+	"definition_type": "file_handler",
+    "name": "CSV File (SCCC Dataset)",
+    "code": "mei:333:csv_sccc_file",
+	"version": 1,
+    "description": "A CSV file to be parsed into the SCCC dataset."
+}

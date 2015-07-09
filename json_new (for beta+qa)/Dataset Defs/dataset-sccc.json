@@ -1,0 +1,31 @@
+{
+	"definition_type" : "dataset",
+	"name" : "SCCC Dataset",
+	"code" : "mei:333:sccc_dataset",
+	"schemas" : [{
+			"clazz" : "com.pilrhealth.data.ConcordiaSchema",
+			"name" : "SCCC Dataset",
+			"schemaVersion" : 1,
+			"specification" : {
+				"type" : "object",
+				"fields" : [{
+						"name" : "Q10_bike",
+						"type" : "string"
+					}, {
+						"name" : "Q10_rec",
+						"type" : "string"
+					}, {
+						"name" : "Q10_parks",
+						"type" : "string"
+					}, {
+						"name" : "zip",
+						"type" : "string"
+					}, {
+						"name" : "zip_recode",
+						"type" : "number"
+					}
+				]
+			}
+		}
+	]
+}
