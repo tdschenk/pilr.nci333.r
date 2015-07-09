@@ -27,35 +27,35 @@
 					}, {
 						"name" : "measure_70_value",
 						"doc" : "Physical inactivity Value",
-						"type" : "string"
+						"type" : "number"
 					}, {
 						"name" : "measure_132_value",
 						"doc" : "Access to exercise opportunities Value",
-						"type" : "string"
+						"type" : "number"
 					}, {
 						"name" : "measure_51_value",
 						"doc" : "2011 population estimate Value",
-						"type" : "string"
+						"type" : "number"
 					}, {
 						"name" : "measure_52_value",
 						"doc" : "Percent of population below 18 years of age",
-						"type" : "string"
+						"type" : "number"
 					}, {
 						"name" : "measure_53_value",
 						"doc" : "Percent of population aged 65 years and older",
-						"type" : "string"
+						"type" : "number"
 					}, {
 						"name" : "measure_54_value",
 						"doc" : "Percent of population that is non-Hispanic African American",
-						"type" : "string"
+						"type" : "number"
 					}, {
 						"name" : "measure_55_value",
 						"doc" : "Percent of population that is American Indian or Alaskan Native",
-						"type" : "string"
+						"type" : "number"
 					}, {
 						"name" : "measure_81_value",
 						"doc" : "Percent of population that is Asian",
-						"type" : "string"
+						"type" : "number"
 					}
 				]
 			}
