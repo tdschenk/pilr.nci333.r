@@ -119,7 +119,7 @@ csv_to_pilr_sccc <- function(data, params, ...) {
   
   # Rename and select vars to return
   df <- df[2:nrow(df),]
-  df <- select(df, c(Q10_bike = Q10_bike, Q10_rec = Q10_rec, 
+  df <- select(df, c(Q10_bike = Q10_bike, Q10_recr = Q10_recr, 
                      Q10_parks = Q10_parks, zip = zip, zip_recode = zip_recode))
   
   # Add metadata

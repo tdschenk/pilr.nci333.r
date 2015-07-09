@@ -12,7 +12,7 @@
 						"name" : "Q10_bike",
 						"type" : "string"
 					}, {
-						"name" : "Q10_rec",
+						"name" : "Q10_recr",
 						"type" : "string"
 					}, {
 						"name" : "Q10_parks",
