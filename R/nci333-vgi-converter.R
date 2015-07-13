@@ -294,8 +294,8 @@ vgi_convert <- function(data, params, ...) {
         }
         # Buildings Near
         else if (eval_sub$question_code[j] == "00370"){
-          ret$buildings_near_response_value[i] <- eval_sub$response_value[j]
-          ret$buildings_near_response[i] <- eval_sub$response[j]
+          ret$building_near_response_value[i] <- eval_sub$response_value[j]
+          ret$building_near_response[i] <- eval_sub$response[j]
         }
         # From Buildings
         else if (eval_sub$question_code[j] == "00380"){
