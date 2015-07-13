@@ -40,7 +40,7 @@ vgi_convert <- function(data, params, ...) {
                     attractive_response_value = character(length(evaluations)), attractive_response = character(length(evaluations)),
                     safe_response_value = character(length(evaluations)), safe_response = character(length(evaluations)), 
                     id = character(length(evaluations)), stringsAsFactors=FALSE)
-  
+  if (length(evaluations) == 0) stop("No surveys found for this participant")
   # Iterate through each evaluation
   for (i in 1:length(evaluations)) {
     
